@@ -23,6 +23,261 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (min-height: 500px) {
+  @media (max-width: 150vh) {
+    .divider {
+      background-color: black;
+      height: 5vw;
+    }
+    .para-div {
+      font-family: Apple Chancery, cursive;
+      font: italic bold 5vh Times, serif;
+      color: white;
+      text-align: center;
+      widows: 100%;
+      width: 100vw;
+      height: 70vh;
+      background-position-x: center;
+      background-position-y: top;
+      background-attachment: fixed;
+      background-size: 150vh 110vh;
+      text-shadow: -1px 0 rgb(24, 22, 22), 0 1px rgb(24, 22, 22),
+        1px 0 rgb(24, 22, 22), 0 -1px rgb(24, 22, 22);
+    }
+    .para-div button {
+      font-family: Apple Chancery, cursive;
+      font: bold Times, serif;
+      font-size: 2vw;
+      background-color: transparent;
+      border-color: white;
+      vertical-align: center;
+      text-align: center;
+      color: white;
+      width: 15vw;
+      height: 10%;
+    }
+    .para-div p {
+      margin-left: 12%;
+      margin-right: 10%;
+      text-align: center;
+      width: 75%;
+    }
+    .para-div h3 {
+      margin-top: 5vh;
+      font-size: 5vw;
+      padding: 5%;
+      padding-bottom: 3%;
+    }
+    #top-div {
+      background-image: url(./assets/double-esp.jpeg);
+
+      background-attachment: fixed;
+      background-position-y: -17.5vh;
+      border-bottom: 5vh solid;
+      border: solid;
+      border-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 69.9vh,
+        rgba(0, 0, 0, 1) 70vh
+      );
+      border-image-slice: 1;
+      border-width: 5vh;
+    }
+    #middle1-div {
+      height: 55vh;
+      background-image: url(./assets/store-customers-dark.jpg);
+      border-top: 5vh solid;
+      border: solid;
+      background-attachment: fixed;
+      background-size: 134vh 100vh;
+      background-position-x: -5.5vh;
+      border-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1) 0vh,
+        rgba(0, 0, 0, 0) 0.1vh
+      );
+      border-image-slice: 1;
+      border-width: 5vh;
+    }
+
+    #middle1-fix {
+      height: 20vh;
+      background-image: url(./assets/store-customers-dark.jpg);
+      border-bottom: 5vh solid;
+      border: solid;
+      background-attachment: fixed;
+      background-size: 134vh 100vh;
+      background-position-x: -5.5vh;
+      border-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 1) 0vh,
+        rgba(0, 0, 0, 0) 0.1vh
+      );
+      border-image-slice: 1;
+      border-width: 5vh;
+    }
+    #middle2-div {
+      height: 50vh;
+      background-image: url(./assets/award-background.jpg);
+      background-attachment: fixed;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+      border: solid;
+      border-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1) 0vh,
+        rgba(0, 0, 0, 0) 0.1vh
+      );
+      border-image-slice: 1;
+      border-width: 5vh;
+    }
+    #middle2-fix {
+      height: 25vh;
+      background-image: url(./assets/award-background.jpg);
+      border-bottom: 5vh solid;
+      border: solid;
+      background-attachment: fixed;
+
+      border-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 1) 0vh,
+        rgba(0, 0, 0, 0) 0.1vh
+      );
+      border-image-slice: 1;
+      border-width: 5vh;
+    }
+    #middle3-div {
+      height: 50vh;
+      background-image: url(./assets/menu-background.jpg);
+      background-attachment: fixed;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+      border: solid;
+      border-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1) 0vh,
+        rgba(0, 0, 0, 0) 0.1vh
+      );
+      border-image-slice: 1;
+      border-width: 5vh;
+    }
+    #middle3-fix {
+      height: 15vh;
+      background-image: url(./assets/menu-background.jpg);
+      border-bottom: 5vh solid;
+      border: solid;
+      background-attachment: fixed;
+
+      border-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 1) 0vh,
+        rgba(0, 0, 0, 0) 0.1vh
+      );
+      border-image-slice: 1;
+      border-width: 5vh;
+    }
+    #middle4-div {
+      height: 50vh;
+      background-image: url(./assets/bean-jars.jpg);
+      background-attachment: fixed;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+      border: solid;
+      border-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1) 0vh,
+        rgba(0, 0, 0, 0) 0.1vh
+      );
+      border-image-slice: 1;
+      border-width: 5vh;
+    }
+    #middle4-fix {
+      height: 15vh;
+      background-image: url(./assets/bean-jars.jpg);
+      border-bottom: 5vh solid;
+      border: solid;
+      background-attachment: fixed;
+
+      border-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 1) 0vh,
+        rgba(0, 0, 0, 0) 0.1vh
+      );
+      border-image-slice: 1;
+      border-width: 5vh;
+    }
+    #middle5-div {
+      background-image: url(./assets/store-front-slant.jpg);
+      background-attachment: fixed;
+      background-position: left;
+
+      background-repeat: no-repeat;
+      background-size: 80vh 100vh;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+      border: solid;
+      border-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1) 0vh,
+        rgba(0, 0, 0, 0) 0.1vh
+      );
+      border-image-slice: 1;
+      border-width: 5vh;
+    }
+    #middle5-fix {
+      height: 15vh;
+      background-image: url(./assets/store-front-slant.jpg);
+      background-size: 80vh 100vh;
+      border-bottom: 5vh solid;
+      border: solid;
+      background-attachment: fixed;
+
+      border-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 1) 0vh,
+        rgba(0, 0, 0, 0) 0.1vh
+      );
+      border-image-slice: 1;
+      border-width: 5vh;
+    }
+
+    .para-div h4 {
+      margin-top: 8vh;
+      margin-bottom: 2vh;
+      font-size: 6vh;
+      width: 90%;
+      padding: 0;
+      border: 0;
+      margin-left: 5vw;
+      margin-right: 0;
+    }
+    #bottom-div div p {
+      font-size: 6vh;
+      width: 100%;
+      padding: 0;
+      border: 0;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .para-div ul {
+      font: italic bold 5vh Times, serif;
+      color: rgb(201, 178, 48);
+      margin-left: 10%;
+      margin-right: 10%;
+      text-align: center;
+      width: 75%;
+    }
+
+    .blur-div p:before {
+      filter: blur(6px);
+    }
+  }
 }
